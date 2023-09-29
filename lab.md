@@ -37,10 +37,6 @@ In this task, you must identify the network interfaces that can be used to captu
 
 sudo ifconfig
 
-Copied!
-
-content_copy
-
 This command returns output similar to the following:
 
 eth0: flags=4163  mtu 1460
@@ -66,10 +62,6 @@ So, in this lab, you'll use `eth0` as the interface that you will capture netw
 
 sudo tcpdump -D
 
-Copied!
-
-content_copy
-
 This command will also allow you to identify which network interfaces are available. This may be useful on systems that do not include the `ifconfig` command.
 
 Click Check my progress to verify that you have completed this task correctly.
@@ -86,10 +78,6 @@ In this task, you must use `tcpdump` to filter live network packet traffic on 
 -   Filter live network packet data from the `eth0` interface with `tcpdump`:
 
 sudo tcpdump -i eth0 -v -c5
-
-Copied!
-
-content_copy
 
 This command will run `tcpdump` with the following options:
 
