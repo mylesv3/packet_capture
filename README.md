@@ -13,4 +13,4 @@ Here's how you'll do this: First, you'll identify network interfaces to capture
 -   save and load packet data for later analysis.
 # Technology Used
 - Bash
-- TCPdump
+- tcpdump
